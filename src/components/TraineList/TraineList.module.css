@@ -1,0 +1,47 @@
+.mtb3 {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-bottom: 5rem;
+}
+
+.table {
+    background-color: #fff;
+    width: 30%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px 10px 10px 10px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.table th {
+    background-color: #D1D1D1;
+    color: #303030;
+}
+
+
+.table tr {
+    transition: all 0.3s;
+    border: 1px solid gray
+}
+
+.table caption {
+    text-align: left;;
+    font-size: large;
+    font-weight: 700;
+    background-color: #fff;
+    padding-left: 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.table tr:hover {
+    background-color: #ccc;
+}
+
+.activeTr {
+    background-color: #ccc;
+}

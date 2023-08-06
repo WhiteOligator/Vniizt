@@ -1,0 +1,10 @@
+.content {
+  background: #eee;
+  max-width: 1920px;
+  justify-content: center;
+  column-gap: 40px; 
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  
+  }
