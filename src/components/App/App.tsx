@@ -16,21 +16,24 @@ export const App = () => {
     },[])
 
     return (
-        <div className={styles.content}>
-            <Header />
-            {!loading && traines ?
-                
-                    <React.Fragment>
-                        <TraineList 
-                            traines = {traines}
-                        />
-                        <TraineCharacteristics />
-                    </React.Fragment>
-                :
-                    <p>loading</p>
-            }
+        <div className={styles.intro}>
+            <div className={styles.content}>    
+                <Header />
+                {!loading && traines ?
+                    
+                        <React.Fragment>
+                            <TraineList 
+                                traines = {traines}
+                            />
+                            <TraineCharacteristics />
+                        </React.Fragment>
+                    :
+                        <p>loading</p>
+                }
             
+            </div>
         </div>
+        
     );
 }
 
